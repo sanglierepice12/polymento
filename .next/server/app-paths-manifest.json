@@ -1,4 +1,12 @@
 {
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/cgv/page": "app/cgv/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/temoignages/page": "app/temoignages/page.js",
   "/mentions-legales/page": "app/mentions-legales/page.js",
-  "/page": "app/page.js"
+  "/a-propos/page": "app/a-propos/page.js",
+  "/politique-de-confidentialite/page": "app/politique-de-confidentialite/page.js",
+  "/page": "app/page.js",
+  "/prestations/page": "app/prestations/page.js"
 }

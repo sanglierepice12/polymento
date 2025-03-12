@@ -11,7 +11,6 @@ const nextConfig = {
     scrollRestoration: true,
     // Optimisation des packages
     optimizePackageImports: [
-      "@vercel/analytics",
       "framer-motion",
       "lucide-react",
     ],
@@ -64,6 +63,9 @@ const nextConfig = {
       },
     ];
   },
+
+  // Ajouter l'option output pour l'exportation statique
+  output: 'export',
 };
 
 module.exports = nextConfig;
