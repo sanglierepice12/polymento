@@ -15,7 +15,7 @@ const navigation = {
   ],
   legal: [
     { name: "Mentions légales", href: "/mentions-legales" },
-    { name: "Politique de confidentialité", href: "/confidentialite" },
+    { name: "Politique de confidentialité", href: "/politique-de-confidentialite" },
     { name: "CGV", href: "/cgv" },
   ],
   social: [

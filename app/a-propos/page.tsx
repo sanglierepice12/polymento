@@ -2,7 +2,6 @@
 
 import { Contact } from "@/components/sections/contact";
 import { Section, SectionHeader } from "@/components/ui/section";
-import { VideoPlayer } from "@/components/ui/video-player";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";

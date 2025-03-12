@@ -51,7 +51,7 @@ export function Hero() {
             className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl"
           >
             <span className="block text-3xl sm:text-4xl md:text-5xl mt-3 text-red-400">
-              L'art de partager sa mémoire
+              L&apos;art de partager sa mémoire
             </span>
           </motion.h1>
 

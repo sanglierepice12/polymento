@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sanglierepice/Desktop/quent/memento/app/prestations/layout.tsx"],"sourcesContent":["import { type Metadata } from \"next\";\n\nexport const metadata: Metadata = {\n  title: \"Nos Prestations | MEMENTO - Votre Capsule Temporelle en Vidéo\",\n  description:\n    \"Découvrez nos offres de capsules temporelles vidéo pour préserver vos souvenirs les plus précieux. Des solutions adaptées à vos besoins.\",\n  openGraph: {\n    title: \"Nos Prestations | MEMENTO\",\n    description:\n      \"Découvrez nos offres de capsules temporelles vidéo pour préserver vos souvenirs les plus précieux.\",\n  },\n};\n\nexport default function PrestationsLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return children;\n}\n"],"names":[],"mappings":";;;;AAEO,MAAM,WAAqB;IAChC,OAAO;IACP,aACE;IACF,WAAW;QACT,OAAO;QACP,aACE;IACJ;AACF;AAEe,SAAS,kBAAkB,EACxC,QAAQ,EAGT;IACC,OAAO;AACT"}},
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

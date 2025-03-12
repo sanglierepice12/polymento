@@ -55,7 +55,7 @@ const navigation = {
         },
         {
             name: "Politique de confidentialité",
-            href: "/confidentialite"
+            href: "/politique-de-confidentialite"
         },
         {
             name: "CGV",

@@ -2,7 +2,7 @@
 
 import { Section, SectionHeader } from "@/components/ui/section";
 import { motion } from "framer-motion";
-import {Heart, Star, Users, Video} from "lucide-react";
+import {Heart, Star, Video} from "lucide-react";
 import Link from "next/link";
 
 const stats = [
