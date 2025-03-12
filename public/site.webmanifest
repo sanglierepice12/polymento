@@ -1,0 +1,9 @@
+{
+  "name": "MEMENTO",
+  "short_name": "MEMENTO",
+  "description": "Votre Capsule Temporelle en Vidéo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#D6222B"
+}
