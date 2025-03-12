@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Ajout de l'option output: 'export' pour la génération statique
+  output: 'export',
+
   // Optimisations de performance
   poweredByHeader: false,
   compress: true,
@@ -7,14 +10,11 @@ const nextConfig = {
 
   // Configuration du cache et de la navigation
   experimental: {
-    // Amélioration de la restauration du défilement
     scrollRestoration: true,
-    // Optimisation des packages
     optimizePackageImports: [
       "framer-motion",
       "lucide-react",
     ],
-    // Optimisation des actions serveur
     serverActions: {
       bodySizeLimit: "2mb",
     },
@@ -31,6 +31,7 @@ const nextConfig = {
     minimumCacheTTL: 60,
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    unoptimized: true, // Ajout de cette option pour l'export statique
   },
 
   // Optimisation de la compilation
@@ -38,34 +39,7 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === "production",
   },
 
-  // Configuration des en-têtes HTTP pour le cache
-  async headers() {
-    return [
-      {
-        source: "/:all*(svg|jpg|png)",
-        locale: false,
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=31536000, must-revalidate",
-          },
-        ],
-      },
-      {
-        source: "/fonts/:all*",
-        locale: false,
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=31536000, must-revalidate",
-          },
-        ],
-      },
-    ];
-  },
-
-  // Ajouter l'option output pour l'exportation statique
-  output: 'export',
+  // Suppression de la section headers car elle n'est pas compatible avec l'export statique
 };
 
 module.exports = nextConfig;

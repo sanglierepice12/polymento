@@ -40,6 +40,7 @@ export const metadata: Metadata = {
     "vidéaste lyon",
     "biographie video",
     "mémoire familiale",
+    "interview biographique video",
   ],
   authors: [
     {
@@ -124,8 +125,8 @@ export const viewport: Viewport = {
 };
 
 // Configuration pour désactiver le cache statique et forcer le rendu dynamique
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+/*export const dynamic = "force-dynamic";
+export const revalidate = 0;*/
 
 export default function RootLayout({
   children,

@@ -1,16 +1,17 @@
-"use client";
-
-import { Section, SectionHeader } from "@/components/ui/section";
-
 export default function CGVPage() {
     return (
-        <>
-            <Section>
-                <SectionHeader
-                    title="Conditions Générales de Vente (CGV)"
-                    description="Les termes et conditions de vente de nos produits"
-                />
-                <div className="prose dark:prose-dark">
+        <div className="container mx-auto px-4 py-8">
+            <div className="max-w-4xl mx-auto">
+                <div className="text-center mb-8">
+                    <h1 className="text-3xl font-bold mb-2">
+                        Conditions Générales de Vente (CGV)
+                    </h1>
+                    <p className="text-gray-600 dark:text-gray-300">
+                        Les termes et conditions de vente de nos produits
+                    </p>
+                </div>
+
+                <div className="prose dark:prose-dark max-w-none">
                     <h2>Préambule</h2>
                     <p>
                         Les présentes conditions générales de vente (CGV) régissent les relations contractuelles entre [Votre entreprise] et le client.
@@ -56,7 +57,7 @@ export default function CGVPage() {
                         Pour toute question, vous pouvez nous contacter à l&apos;adresse suivante : info@polymento.fr
                     </p>
                 </div>
-            </Section>
-        </>
+            </div>
+        </div>
     );
 }
